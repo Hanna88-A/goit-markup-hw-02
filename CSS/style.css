@@ -78,13 +78,14 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* Секции*/
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-align: center;
 }
 /* Секция "Особенности"*/
@@ -93,6 +94,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .features .text {
   font-size: 14px;
@@ -142,6 +144,10 @@ body {
   color: var(--white-text);
   font-family: inherit;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -155,6 +161,11 @@ body {
   color: var(--title-text-color);
   font-family: inherit;
   cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 .button-filter .item:hover,
 .button-filter .item:focus {
